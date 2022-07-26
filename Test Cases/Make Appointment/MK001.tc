@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tampilan makeApoinmet</description>
+   <name>MK001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df25f409-23e5-4569-819c-92a5791ad1a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2601f170-599e-4602-b7a2-945d2d0b2f84</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d6c0150-7ce0-4637-9c0b-114ba9cf4b6c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>106b3425-5050-47f9-ae54-0dbde36b2e3d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2601f170-599e-4602-b7a2-945d2d0b2f84</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d6c0150-7ce0-4637-9c0b-114ba9cf4b6c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>106b3425-5050-47f9-ae54-0dbde36b2e3d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

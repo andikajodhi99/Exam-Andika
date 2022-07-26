@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User klik teks Apply for hospital readmission yang sudah tercentang</description>
+   <name>MK007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f138f260-d9a9-440a-a101-3caf05baec44</testCaseGuid>
+</TestCaseEntity>

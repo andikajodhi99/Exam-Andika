@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Make Appointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0e7c33a9-6a31-4938-b734-bde401560d6c</testSuiteGuid>
+   <testCaseLink>
+      <guid>3d717877-21eb-48f6-b3e4-a43710a1da5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>05e4318a-2ede-45c6-9594-4e7e23f97d7f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/databinding</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>05e4318a-2ede-45c6-9594-4e7e23f97d7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>2601f170-599e-4602-b7a2-945d2d0b2f84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05e4318a-2ede-45c6-9594-4e7e23f97d7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>4d6c0150-7ce0-4637-9c0b-114ba9cf4b6c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05e4318a-2ede-45c6-9594-4e7e23f97d7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>106b3425-5050-47f9-ae54-0dbde36b2e3d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67f056f9-1ca3-4400-870e-9ceaaaa72da6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK003</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88d21106-6c91-433f-939d-64fb334d7442</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK004</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f7751c8a-b8b1-4e20-b7c3-cec047ed858c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK005</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a2eb996-0711-47fd-aaed-6e3db799e086</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK006</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>db60abd2-08f7-46a1-af98-5079c3e3ffda</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/databinding</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>db60abd2-08f7-46a1-af98-5079c3e3ffda</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>f2c4e103-9ba5-43ed-b64d-31052054fb55</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>db60abd2-08f7-46a1-af98-5079c3e3ffda</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>26605ab1-31f5-4646-8b60-2bf5d9c416c4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>db60abd2-08f7-46a1-af98-5079c3e3ffda</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e6890f86-8f75-400a-855d-65994af2f5a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90a9083f-9fd5-4700-9d0c-78dd7c8f06e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK007</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96710403-2f50-40a3-923c-f310d3176062</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK008</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3833069-1456-4515-9ee3-6ff8439b5d6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK009</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ddc3f5a2-b4f2-4ba5-9d1f-491a45220210</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK010</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c20237ae-2623-4222-ab99-cae295e61cdb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK011</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd148212-ec04-421b-8b72-fabb5e8fed3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK012</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c912fc45-0de0-4ce8-8b4a-8a7ac379b66a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK013</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e3b5d4b-fb75-47a3-88a2-2dcb66e10148</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK014</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>492641b7-4694-4f4c-8502-c5bda5e4044f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK015</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>54bb8686-9480-478a-bb09-750284704bd9</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/databinding</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>54bb8686-9480-478a-bb09-750284704bd9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>7de43225-37fe-48f0-b96c-15f7f3afe4c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54bb8686-9480-478a-bb09-750284704bd9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a228b75a-50ba-4452-ba9d-5170feeb64a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54bb8686-9480-478a-bb09-750284704bd9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>684a6fac-b333-4bd7-b496-d4e81336050c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>365960fe-305b-4456-bcc2-597087cfcff9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment/MK016</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>77a2a854-e12c-4a5c-a7af-48cca6d14e2f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/databinding</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>77a2a854-e12c-4a5c-a7af-48cca6d14e2f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>f2261c5d-47c9-4fc3-80a7-626e601b948d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>77a2a854-e12c-4a5c-a7af-48cca6d14e2f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>48004baa-cb8e-47dd-a2f0-bc631d9cf964</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>77a2a854-e12c-4a5c-a7af-48cca6d14e2f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>01c01dbb-d92a-4888-bcdd-689a9c348531</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

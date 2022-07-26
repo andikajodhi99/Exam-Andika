@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Make Appointment,Chrome 103.0.5060.114,,,2022-07-26 18:06:17,2022-07-26 18:08:47,2m - 29.320s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK001,Chrome 103.0.5060.114,Tampilan makeApoinmet,,2022-07-26 18:06:19,2022-07-26 18:06:40,20.929s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-26 18:06:21,2022-07-26 18:06:27,5.445s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-26 18:06:27,2022-07-26 18:06:30,3.296s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 103.0.5060.114,,,2022-07-26 18:06:30,2022-07-26 18:06:31,1.375s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 103.0.5060.114,,,2022-07-26 18:06:31,2022-07-26 18:06:33,1.362s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 103.0.5060.114,,,2022-07-26 18:06:33,2022-07-26 18:06:34,1.128s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/button_Login""))",Chrome 103.0.5060.114,,,2022-07-26 18:06:34,2022-07-26 18:06:35,1.454s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:06:35,2022-07-26 18:06:37,2.212s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:06:37,2022-07-26 18:06:40,2.397s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK003,Chrome 103.0.5060.114,User pilih data facility,,2022-07-26 18:06:40,2022-07-26 18:06:48,7.691s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 103.0.5060.114,,,2022-07-26 18:06:42,2022-07-26 18:06:43,1.527s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:06:43,2022-07-26 18:06:45,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:06:45,2022-07-26 18:06:48,2.317s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK004,Chrome 103.0.5060.114,User klik chek box Apply for hospital readmission,,2022-07-26 18:06:48,2022-07-26 18:06:53,5.780s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 103.0.5060.114,,,2022-07-26 18:06:50,2022-07-26 18:06:50,0.708s,PASSED
+delay(0),Chrome 103.0.5060.114,,,2022-07-26 18:06:50,2022-07-26 18:06:50,0.005s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:06:50,2022-07-26 18:06:53,2.175s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 103.0.5060.114,,,2022-07-26 18:06:53,2022-07-26 18:06:53,0.747s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK005,Chrome 103.0.5060.114,User klik teks Apply for hospital readmission,,2022-07-26 18:06:53,2022-07-26 18:07:01,7.566s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 103.0.5060.114,,,2022-07-26 18:06:56,2022-07-26 18:06:56,0.656s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:06:56,2022-07-26 18:06:58,2.009s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:06:58,2022-07-26 18:07:00,2.015s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-26 18:07:00,2022-07-26 18:07:01,0.774s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK006,Chrome 103.0.5060.114,User klik chek box Apply for hospital readmission yang sudah tercentang,,2022-07-26 18:07:01,2022-07-26 18:07:16,14.806s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-26 18:07:03,2022-07-26 18:07:05,1.503s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-26 18:07:05,2022-07-26 18:07:08,3.414s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:08,2022-07-26 18:07:09,1.193s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 103.0.5060.114,,,2022-07-26 18:07:09,2022-07-26 18:07:10,1.217s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 103.0.5060.114,,,2022-07-26 18:07:10,2022-07-26 18:07:11,1.056s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/button_Login""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:11,2022-07-26 18:07:13,1.633s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:13,2022-07-26 18:07:14,0.758s,PASSED
+delay(0),Chrome 103.0.5060.114,,,2022-07-26 18:07:14,2022-07-26 18:07:14,0.004s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:07:14,2022-07-26 18:07:16,2.203s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK007,Chrome 103.0.5060.114,User klik teks Apply for hospital readmission yang sudah tercentang,,2022-07-26 18:07:16,2022-07-26 18:07:23,7.036s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:18,2022-07-26 18:07:19,0.600s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:07:19,2022-07-26 18:07:21,2.012s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:07:21,2022-07-26 18:07:23,2.124s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK008,Chrome 103.0.5060.114,user klik pada radio button Healthcare Program,,2022-07-26 18:07:23,2022-07-26 18:07:30,6.792s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:25,2022-07-26 18:07:26,0.678s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:07:26,2022-07-26 18:07:28,2.008s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:07:28,2022-07-26 18:07:30,1.978s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK009,Chrome 103.0.5060.114,User pilih opsi radio button dengan klik teks,,2022-07-26 18:07:30,2022-07-26 18:07:35,5.104s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:32,2022-07-26 18:07:33,0.745s,PASSED
+delay(0),Chrome 103.0.5060.114,,,2022-07-26 18:07:33,2022-07-26 18:07:33,0.005s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:07:33,2022-07-26 18:07:35,2.074s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK010,Chrome 103.0.5060.114,User klik field Visit Date (Required),,2022-07-26 18:07:35,2022-07-26 18:07:42,7.209s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:38,2022-07-26 18:07:38,0.775s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:07:38,2022-07-26 18:07:40,2.017s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:07:40,2022-07-26 18:07:42,1.976s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK011,Chrome 103.0.5060.114,User klik icon kalender pada Visit Date (Required),,2022-07-26 18:07:42,2022-07-26 18:07:48,5.627s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:44,2022-07-26 18:07:45,0.726s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-26 18:07:45,2022-07-26 18:07:46,1.029s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:07:46,2022-07-26 18:07:48,2.058s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK012,Chrome 103.0.5060.114,User pilih tanggal visit date,,2022-07-26 18:07:48,2022-07-26 18:07:51,3.229s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:50,2022-07-26 18:07:51,0.618s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:51,2022-07-26 18:07:51,0.712s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK013,Chrome 103.0.5060.114,User pilih tanggal visit date dengan klik icon kalender,,2022-07-26 18:07:51,2022-07-26 18:07:59,7.451s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:53,2022-07-26 18:07:54,0.765s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20""))",Chrome 103.0.5060.114,,,2022-07-26 18:07:54,2022-07-26 18:07:55,0.738s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:07:55,2022-07-26 18:07:57,2.020s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:07:57,2022-07-26 18:07:59,2.099s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK014,Chrome 103.0.5060.114,User Input Comment,,2022-07-26 18:07:59,2022-07-26 18:08:06,6.899s,PASSED
+"setText(findTestObject(""Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Testing QA"")",Chrome 103.0.5060.114,,,2022-07-26 18:08:01,2022-07-26 18:08:02,1.075s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-26 18:08:02,2022-07-26 18:08:03,1.021s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:08:03,2022-07-26 18:08:05,2.183s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-26 18:08:05,2022-07-26 18:08:06,0.731s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK015,Chrome 103.0.5060.114,User Klik book Appoinment,,2022-07-26 18:08:06,2022-07-26 18:08:29,23.041s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-26 18:08:08,2022-07-26 18:08:10,1.559s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-26 18:08:10,2022-07-26 18:08:13,2.981s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:13,2022-07-26 18:08:14,1.230s,PASSED
+"doubleClick(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:14,2022-07-26 18:08:15,1.051s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:15,2022-07-26 18:08:16,0.739s,PASSED
+"setText(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 103.0.5060.114,,,2022-07-26 18:08:16,2022-07-26 18:08:17,1.142s,PASSED
+"doubleClick(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:17,2022-07-26 18:08:18,0.891s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 103.0.5060.114,,,2022-07-26 18:08:18,2022-07-26 18:08:19,0.934s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Login""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:19,2022-07-26 18:08:20,1.900s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 103.0.5060.114,,,2022-07-26 18:08:20,2022-07-26 18:08:22,1.483s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:22,2022-07-26 18:08:23,0.807s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:23,2022-07-26 18:08:24,0.740s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_27""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:24,2022-07-26 18:08:24,0.767s,PASSED
+"setText(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment""), ""testinggg"")",Chrome 103.0.5060.114,,,2022-07-26 18:08:24,2022-07-26 18:08:25,1.077s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:25,2022-07-26 18:08:27,1.703s,PASSED
+delay(0),Chrome 103.0.5060.114,,,2022-07-26 18:08:27,2022-07-26 18:08:27,0.009s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:08:27,2022-07-26 18:08:29,2.159s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/MK016,Chrome 103.0.5060.114,User Klik book Appoinment tanpa mengubah data field satupun,,2022-07-26 18:08:30,2022-07-26 18:08:47,16.744s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-26 18:08:32,2022-07-26 18:08:34,2.205s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-26 18:08:34,2022-07-26 18:08:37,2.892s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:37,2022-07-26 18:08:38,1.321s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 103.0.5060.114,,,2022-07-26 18:08:38,2022-07-26 18:08:39,1.202s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 103.0.5060.114,,,2022-07-26 18:08:39,2022-07-26 18:08:41,1.194s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/button_Login""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:41,2022-07-26 18:08:43,1.891s,PASSED
+"click(findTestObject(""Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 103.0.5060.114,,,2022-07-26 18:08:43,2022-07-26 18:08:43,0.924s,PASSED
+delay(0),Chrome 103.0.5060.114,,,2022-07-26 18:08:43,2022-07-26 18:08:43,0.009s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:08:43,2022-07-26 18:08:46,2.318s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-26 18:08:46,2022-07-26 18:08:46,0.733s,PASSED

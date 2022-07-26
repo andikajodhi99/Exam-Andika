@@ -1,0 +1,15 @@
+{"testCaseName":"Test Cases/Make Appointment/MK001","testCaseId":"Test Cases/Make Appointment/MK001","iterationVariableName":"","bindedValues":{"password":"\u0027ThisIsNotAPassword\u0027","url":"\u0027https://katalon-demo-cura.herokuapp.com/\u0027","username":"\u0027John Doe\u0027"}}
+{"testCaseName":"Test Cases/Make Appointment/MK003","testCaseId":"Test Cases/Make Appointment/MK003","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK004","testCaseId":"Test Cases/Make Appointment/MK004","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK005","testCaseId":"Test Cases/Make Appointment/MK005","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK006","testCaseId":"Test Cases/Make Appointment/MK006","iterationVariableName":"","bindedValues":{"password":"\u0027ThisIsNotAPassword\u0027","url":"\u0027https://katalon-demo-cura.herokuapp.com/\u0027","username":"\u0027John Doe\u0027"}}
+{"testCaseName":"Test Cases/Make Appointment/MK007","testCaseId":"Test Cases/Make Appointment/MK007","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK008","testCaseId":"Test Cases/Make Appointment/MK008","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK009","testCaseId":"Test Cases/Make Appointment/MK009","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK010","testCaseId":"Test Cases/Make Appointment/MK010","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK011","testCaseId":"Test Cases/Make Appointment/MK011","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK012","testCaseId":"Test Cases/Make Appointment/MK012","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK013","testCaseId":"Test Cases/Make Appointment/MK013","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK014","testCaseId":"Test Cases/Make Appointment/MK014","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/MK015","testCaseId":"Test Cases/Make Appointment/MK015","iterationVariableName":"","bindedValues":{"password":"\u0027ThisIsNotAPassword\u0027","variable_1":"\u0027ThisIsNotAPassword\u0027","url":"\u0027https://katalon-demo-cura.herokuapp.com/\u0027"}}
+{"testCaseName":"Test Cases/Make Appointment/MK016","testCaseId":"Test Cases/Make Appointment/MK016","iterationVariableName":"","bindedValues":{"password":"\u0027ThisIsNotAPassword\u0027","url":"\u0027https://katalon-demo-cura.herokuapp.com/\u0027","username":"\u0027John Doe\u0027"}}

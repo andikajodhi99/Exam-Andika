@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User pilih tanggal visit date dengan klik icon kalender</description>
+   <name>MK013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b0afc1c-1583-4d16-9f60-ef739891bb00</testCaseGuid>
+</TestCaseEntity>

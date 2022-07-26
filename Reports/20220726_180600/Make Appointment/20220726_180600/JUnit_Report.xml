@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Make Appointment" time="149.32" tests="15" failures="0" errors="0">
+   <testsuite name="Make Appointment" tests="15" failures="0" errors="0" time="149.32" skipped="0" timestamp="2022-07-26 18:06:17" hostname="Andika - DESKTOP-PNDNL8F.lan" id="Test Suites/Make Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600"/>
+         <property name="logFiles" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\execution0.log"/>
+         <property name="attachments" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833598001.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833605759.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833610954.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833618688.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833634396.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833641561.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833648533.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833653583.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833660933.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833666536.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833677245.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833683369.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833707571.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833723957.png"/>
+         <property name="hostName" value="Andika - DESKTOP-PNDNL8F.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.110.8"/>
+         <property name="sessionId" value="39ae859980fc825a93690da260336668"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Make Appointment/MK001" time="20.929" classname="Test Cases/Make Appointment/MK001" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:06:19 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK001: Test Cases/Make Appointment/MK001
+
+2022-07-26 18:06:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 18:06:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 18:06:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 18:06:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 18:06:27 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:06:30 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:06:33 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:06:34 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:06:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:06:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:06:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:06:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:06:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833598001.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK003" time="7.691" classname="Test Cases/Make Appointment/MK003" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:06:40 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK003: Test Cases/Make Appointment/MK003
+
+2022-07-26 18:06:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Login/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-07-26 18:06:43 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Login/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-07-26 18:06:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:06:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:06:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:06:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:06:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833605759.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK004" time="5.78" classname="Test Cases/Make Appointment/MK004" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:06:48 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK004: Test Cases/Make Appointment/MK004
+
+2022-07-26 18:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2022-07-26 18:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2022-07-26 18:06:50 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2022-07-26 18:06:50 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2022-07-26 18:06:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:06:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:06:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833610954.png]]
+
+2022-07-26 18:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2022-07-26 18:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK005" time="7.566" classname="Test Cases/Make Appointment/MK005" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:06:53 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK005: Test Cases/Make Appointment/MK005
+
+2022-07-26 18:06:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-07-26 18:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-07-26 18:06:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:06:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:06:58 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:06:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833618688.png]]
+
+2022-07-26 18:07:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 18:07:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK006" time="14.806" classname="Test Cases/Make Appointment/MK006" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:01 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK006: Test Cases/Make Appointment/MK006
+
+2022-07-26 18:07:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 18:07:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 18:07:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 18:07:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 18:07:05 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:07:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:07:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:07:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:07:11 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2022-07-26 18:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2022-07-26 18:07:14 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2022-07-26 18:07:14 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2022-07-26 18:07:14 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:07:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833634396.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK007" time="7.036" classname="Test Cases/Make Appointment/MK007" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:16 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK007: Test Cases/Make Appointment/MK007
+
+2022-07-26 18:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-07-26 18:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+2022-07-26 18:07:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:07:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:07:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:07:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833641561.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK008" time="6.792" classname="Test Cases/Make Appointment/MK008" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:23 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK008: Test Cases/Make Appointment/MK008
+
+2022-07-26 18:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2022-07-26 18:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2022-07-26 18:07:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:07:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:07:28 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:07:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833648533.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK009" time="5.104" classname="Test Cases/Make Appointment/MK009" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:30 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK009: Test Cases/Make Appointment/MK009
+
+2022-07-26 18:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+2022-07-26 18:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+2022-07-26 18:07:33 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2022-07-26 18:07:33 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2022-07-26 18:07:33 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:07:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833653583.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK010" time="7.209" classname="Test Cases/Make Appointment/MK010" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:35 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK010: Test Cases/Make Appointment/MK010
+
+2022-07-26 18:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:07:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:07:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:07:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:07:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833660933.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK011" time="5.627" classname="Test Cases/Make Appointment/MK011" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:42 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK011: Test Cases/Make Appointment/MK011
+
+2022-07-26 18:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2022-07-26 18:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2022-07-26 18:07:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-07-26 18:07:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-26 18:07:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:07:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833666536.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK012" time="3.229" classname="Test Cases/Make Appointment/MK012" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:48 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK012: Test Cases/Make Appointment/MK012
+
+2022-07-26 18:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:07:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20' is clicked on
+
+2022-07-26 18:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK013" time="7.451" classname="Test Cases/Make Appointment/MK013" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:51 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK013: Test Cases/Make Appointment/MK013
+
+2022-07-26 18:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20' is clicked on
+
+2022-07-26 18:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_20' is clicked on
+
+2022-07-26 18:07:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:07:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:07:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:07:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:07:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833677245.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK014" time="6.899" classname="Test Cases/Make Appointment/MK014" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:07:59 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK014: Test Cases/Make Appointment/MK014
+
+2022-07-26 18:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment"), "Testing QA"): Text 'Testing QA' is set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-07-26 18:08:02 - [MESSAGE][PASSED] - Text 'Testing QA' is set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-07-26 18:08:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-07-26 18:08:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-26 18:08:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:08:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:08:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833683369.png]]
+
+2022-07-26 18:08:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 18:08:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK015" time="23.041" classname="Test Cases/Make Appointment/MK015" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:08:06 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK015: Test Cases/Make Appointment/MK015
+
+2022-07-26 18:08:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 18:08:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 18:08:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 18:08:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 18:08:10 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:08:13 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:08:14 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+2022-07-26 18:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+2022-07-26 18:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-07-26 18:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-07-26 18:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:08:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:08:17 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control_1")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control_1' is double clicked on
+
+2022-07-26 18:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Demo account_form-control_1' is double clicked on
+
+2022-07-26 18:08:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:08:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:08:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-07-26 18:08:22 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2022-07-26 18:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+2022-07-26 18:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+2022-07-26 18:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-07-26 18:08:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_27")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_27' is clicked on
+
+2022-07-26 18:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/td_27' is clicked on
+
+2022-07-26 18:08:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment"), "testinggg"): Text 'testinggg' is set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-07-26 18:08:25 - [MESSAGE][PASSED] - Text 'testinggg' is set on object 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-07-26 18:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-07-26 18:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-07-26 18:08:27 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2022-07-26 18:08:27 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2022-07-26 18:08:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:08:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:08:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833707571.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/MK016" time="16.744" classname="Test Cases/Make Appointment/MK016" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:08:30 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/MK016: Test Cases/Make Appointment/MK016
+
+2022-07-26 18:08:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 18:08:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-26 18:08:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 18:08:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 18:08:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 18:08:34 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:08:37 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:08:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:08:39 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:08:41 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:08:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-07-26 18:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Makeappoinment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-07-26 18:08:43 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2022-07-26 18:08:43 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2022-07-26 18:08:43 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:08:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:08:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_180600\\Make Appointment\\20220726_180600\\1658833723957.png]]
+
+2022-07-26 18:08:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 18:08:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-26 18:06:17 - [TEST_SUITE][PASSED] - Make Appointment: Test Cases/Make Appointment/MK016]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

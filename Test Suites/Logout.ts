@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Logout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>bb2776c7-327b-42a3-b5f7-3e41aaf7b794</testSuiteGuid>
+   <testCaseLink>
+      <guid>f13d9016-cdb0-4e12-b74d-c18bd04b776a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login006</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>100372ba-d322-4b49-a9e6-a264c2febc85</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/databinding</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>100372ba-d322-4b49-a9e6-a264c2febc85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>397c9794-e5dd-4daf-b748-7d1729bdb92a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>100372ba-d322-4b49-a9e6-a264c2febc85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>7f6d6222-3a2c-49c3-a003-82a1bc45329a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>100372ba-d322-4b49-a9e6-a264c2febc85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>21d2cdd3-75e7-4be9-88f7-6375ec8c1f65</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71c1aa3c-cccd-4f74-abf4-1a449295163b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

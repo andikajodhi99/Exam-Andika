@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User klik teks Apply for hospital readmission</description>
+   <name>MK005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d98cbd7b-c5f6-4873-b1bb-c0b3d66eda89</testCaseGuid>
+</TestCaseEntity>

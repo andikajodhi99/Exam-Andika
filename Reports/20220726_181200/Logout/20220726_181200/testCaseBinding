@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login/Login006","testCaseId":"Test Cases/Login/Login006","iterationVariableName":"","bindedValues":{"password":"\u0027ThisIsNotAPassword\u0027","url":"\u0027https://katalon-demo-cura.herokuapp.com/\u0027","username":"\u0027John Doe\u0027"}}
+{"testCaseName":"Test Cases/logout","testCaseId":"Test Cases/logout","iterationVariableName":""}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;User masuk halaman login 
+dengan klik make Appoinment&quot;</description>
+   <name>Login003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb1e5a06-ad9f-4c52-93ca-bee3c0d93297</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>681305eb-b4a9-499f-804f-ee92bb8349cc</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/databinding</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>681305eb-b4a9-499f-804f-ee92bb8349cc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>url</value>
+      <variableId>fc74c7ca-ce02-466f-8007-eafc57302639</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc74c7ca-ce02-466f-8007-eafc57302639</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

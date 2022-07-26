@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User klik chek box Apply for hospital readmission yang sudah tercentang</description>
+   <name>MK006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b9cba97-0967-467e-836b-afaf8ea906f4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2c4e103-9ba5-43ed-b64d-31052054fb55</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26605ab1-31f5-4646-8b60-2bf5d9c416c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6890f86-8f75-400a-855d-65994af2f5a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2c4e103-9ba5-43ed-b64d-31052054fb55</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26605ab1-31f5-4646-8b60-2bf5d9c416c4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6890f86-8f75-400a-855d-65994af2f5a0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

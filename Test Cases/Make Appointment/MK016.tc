@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Klik book Appoinment tanpa mengubah data field satupun</description>
+   <name>MK016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5355b6a7-c9a3-4a39-a870-bea82a128c57</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2261c5d-47c9-4fc3-80a7-626e601b948d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48004baa-cb8e-47dd-a2f0-bc631d9cf964</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01c01dbb-d92a-4888-bcdd-689a9c348531</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2261c5d-47c9-4fc3-80a7-626e601b948d</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48004baa-cb8e-47dd-a2f0-bc631d9cf964</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01c01dbb-d92a-4888-bcdd-689a9c348531</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

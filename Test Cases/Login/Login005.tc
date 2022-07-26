@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input Username dan password dengan sesuai dengan info demo account dengan cara copy paste</description>
+   <name>Login005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b21d6df-0aa1-4f03-87e4-e4d6e2db039a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a2ea61fb-22a6-40aa-b9ae-1676487498b8</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/databinding</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a2ea61fb-22a6-40aa-b9ae-1676487498b8</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>url</value>
+      <variableId>32fdeac9-a365-42f2-af8f-d0de272a9c5e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a2ea61fb-22a6-40aa-b9ae-1676487498b8</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>b0c09c38-cb6b-4fda-9c9e-a676f2cf3aaf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a2ea61fb-22a6-40aa-b9ae-1676487498b8</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>389b65d4-649c-47a6-bb87-df222237217e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32fdeac9-a365-42f2-af8f-d0de272a9c5e</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0c09c38-cb6b-4fda-9c9e-a676f2cf3aaf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>389b65d4-649c-47a6-bb87-df222237217e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout,Chrome 103.0.5060.114,,,2022-07-26 18:12:17,2022-07-26 18:12:50,32.151s,PASSED
+,,,,,,,
+Test Cases/Login/Login006,Chrome 103.0.5060.114,input data username dan password invalid,,2022-07-26 18:12:19,2022-07-26 18:12:41,21.787s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-26 18:12:21,2022-07-26 18:12:27,5.850s,PASSED
+navigateToUrl(url),Chrome 103.0.5060.114,,,2022-07-26 18:12:27,2022-07-26 18:12:30,3.023s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 103.0.5060.114,,,2022-07-26 18:12:30,2022-07-26 18:12:32,1.664s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 103.0.5060.114,,,2022-07-26 18:12:32,2022-07-26 18:12:33,1.396s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 103.0.5060.114,,,2022-07-26 18:12:33,2022-07-26 18:12:35,1.328s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/button_Login""))",Chrome 103.0.5060.114,,,2022-07-26 18:12:35,2022-07-26 18:12:36,1.446s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-26 18:12:36,2022-07-26 18:12:38,2.296s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:12:38,2022-07-26 18:12:41,2.634s,PASSED
+,,,,,,,
+Test Cases/logout,Chrome 103.0.5060.114,,,2022-07-26 18:12:41,2022-07-26 18:12:50,8.436s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 103.0.5060.114,,,2022-07-26 18:12:44,2022-07-26 18:12:45,0.773s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_CURA Healthcare Service/a_Logout""))",Chrome 103.0.5060.114,,,2022-07-26 18:12:45,2022-07-26 18:12:46,1.827s,PASSED
+delay(0),Chrome 103.0.5060.114,,,2022-07-26 18:12:46,2022-07-26 18:12:46,0.007s,PASSED
+takeFullPageScreenshot(),Chrome 103.0.5060.114,,,2022-07-26 18:12:46,2022-07-26 18:12:49,2.415s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-26 18:12:49,2022-07-26 18:12:50,0.810s,PASSED

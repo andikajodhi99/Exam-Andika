@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User klik chek box Apply for hospital readmission</description>
+   <name>MK004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a58d3ff0-5aff-4151-b17e-ceddad3cf7a0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Design Mockup</description>
+   <name>Login001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7b8575b-b9a7-4853-bb0e-23f3f8b8c193</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>44cc4cfa-951e-410d-bb16-2b5de4eddc1d</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/databinding</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>44cc4cfa-951e-410d-bb16-2b5de4eddc1d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>url</value>
+      <variableId>21c488c5-cd7b-4970-8cce-0071dc5613a5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21c488c5-cd7b-4970-8cce-0071dc5613a5</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

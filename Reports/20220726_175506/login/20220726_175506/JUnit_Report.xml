@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="201.237" tests="16" failures="0" errors="0">
+   <testsuite name="login" tests="16" failures="0" errors="0" time="201.237" skipped="0" timestamp="2022-07-26 17:55:24" hostname="Andika - DESKTOP-PNDNL8F.lan" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506"/>
+         <property name="logFiles" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\execution0.log"/>
+         <property name="attachments" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832940778.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832950205.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832960115.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832972649.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833005882.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833017918.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833030295.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833041744.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833053531.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833065117.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833076624.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833088706.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833100386.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833111858.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833123478.png"/>
+         <property name="hostName" value="Andika - DESKTOP-PNDNL8F.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.110.8"/>
+         <property name="sessionId" value="0d55759c21ec24454d230d21a2ad00b8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login001" time="17.091" classname="Test Cases/Login/Login001" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:55:26 - [TEST_CASE][PASSED] - Test Cases/Login/Login001: Test Cases/Login/Login001
+
+2022-07-26 17:55:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 17:55:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 17:55:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 17:55:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 17:55:35 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:55:38 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:55:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:55:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:55:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832940778.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login002" time="9.483" classname="Test Cases/Login/Login002" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:55:43 - [TEST_CASE][PASSED] - Test Cases/Login/Login002: Test Cases/Login/Login002
+
+2022-07-26 17:55:46 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:55:46 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:55:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:55:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:55:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:55:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:55:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832950205.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login003" time="9.072" classname="Test Cases/Login/Login003" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:55:53 - [TEST_CASE][PASSED] - Test Cases/Login/Login003: Test Cases/Login/Login003
+
+2022-07-26 17:55:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:55:56 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2022-07-26 17:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2022-07-26 17:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2022-07-26 17:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2022-07-26 17:55:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:56:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:56:00 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:56:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:56:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832960115.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login004" time="12.981" classname="Test Cases/Login/Login004" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:56:02 - [TEST_CASE][PASSED] - Test Cases/Login/Login004: Test Cases/Login/Login004
+
+2022-07-26 17:56:05 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:05 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:07 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:09 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:56:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:56:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:56:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:56:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658832972649.png]]
+
+2022-07-26 17:56:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 17:56:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login005" time="15.652" classname="Test Cases/Login/Login005" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:56:15 - [TEST_CASE][PASSED] - Test Cases/Login/Login005: Test Cases/Login/Login005
+
+2022-07-26 17:56:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 17:56:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 17:56:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 17:56:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 17:56:19 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:22 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:23 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+2022-07-26 17:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+2022-07-26 17:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-07-26 17:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2022-07-26 17:56:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:26 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:26 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control_1")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control_1' is double clicked on
+
+2022-07-26 17:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control_1' is double clicked on
+
+2022-07-26 17:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control_1")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control_1' is clicked on
+
+2022-07-26 17:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/input_Demo account_form-control_1' is clicked on
+
+2022-07-26 17:56:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:29 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 17:56:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login006" time="16.198" classname="Test Cases/Login/Login006" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:56:31 - [TEST_CASE][PASSED] - Test Cases/Login/Login006: Test Cases/Login/Login006
+
+2022-07-26 17:56:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 17:56:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 17:56:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 17:56:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 17:56:35 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:38 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'andika' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:41 - [MESSAGE][PASSED] - Text 'andika' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'admins2021' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:42 - [MESSAGE][PASSED] - Text 'admins2021' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:56:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:56:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:56:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:56:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833005882.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login007" time="11.716" classname="Test Cases/Login/Login007" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:56:48 - [TEST_CASE][PASSED] - Test Cases/Login/Login007: Test Cases/Login/Login007
+
+2022-07-26 17:56:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:56:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:53 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:56:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'admins2022' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:54 - [MESSAGE][PASSED] - Text 'admins2022' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:56:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:56:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:56:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:56:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:56:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:57:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833017918.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login008" time="11.685" classname="Test Cases/Login/Login008" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:57:00 - [TEST_CASE][PASSED] - Test Cases/Login/Login008: Test Cases/Login/Login008
+
+2022-07-26 17:57:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'andika' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:05 - [MESSAGE][PASSED] - Text 'andika' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:06 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:57:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:57:10 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:57:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:57:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833030295.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login009" time="11.216" classname="Test Cases/Login/Login009" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:57:12 - [TEST_CASE][PASSED] - Test Cases/Login/Login009: Test Cases/Login/Login009
+
+2022-07-26 17:57:14 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:15 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'john doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:17 - [MESSAGE][PASSED] - Text 'john doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:18 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:57:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:57:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:57:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:57:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833041744.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login010" time="11.321" classname="Test Cases/Login/Login010" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:57:24 - [TEST_CASE][PASSED] - Test Cases/Login/Login010: Test Cases/Login/Login010
+
+2022-07-26 17:57:26 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:26 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'JOHN DOE ' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:28 - [MESSAGE][PASSED] - Text 'JOHN DOE ' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:29 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:57:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:57:33 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:57:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:57:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833053531.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login011" time="11.142" classname="Test Cases/Login/Login011" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:57:36 - [TEST_CASE][PASSED] - Test Cases/Login/Login011: Test Cases/Login/Login011
+
+2022-07-26 17:57:37 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:38 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text '  John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:40 - [MESSAGE][PASSED] - Text '  John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:41 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:57:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:57:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:57:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:57:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833065117.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login012" time="11.215" classname="Test Cases/Login/Login012" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:57:47 - [TEST_CASE][PASSED] - Test Cases/Login/Login012: Test Cases/Login/Login012
+
+2022-07-26 17:57:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:57:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe ' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:52 - [MESSAGE][PASSED] - Text 'John Doe ' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:57:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:53 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:57:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:57:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:57:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:57:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:57:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:57:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833076624.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login013" time="11.775" classname="Test Cases/Login/Login013" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:57:59 - [TEST_CASE][PASSED] - Test Cases/Login/Login013: Test Cases/Login/Login013
+
+2022-07-26 17:58:01 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:04 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'thisisnotapassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:05 - [MESSAGE][PASSED] - Text 'thisisnotapassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:58:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:58:08 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:58:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:58:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833088706.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login014" time="11.216" classname="Test Cases/Login/Login014" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:58:11 - [TEST_CASE][PASSED] - Test Cases/Login/Login014: Test Cases/Login/Login014
+
+2022-07-26 17:58:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:13 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:15 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'THISISNOTAPASSWORD' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:17 - [MESSAGE][PASSED] - Text 'THISISNOTAPASSWORD' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:58:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:58:20 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:58:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:58:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833100386.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login015" time="11.248" classname="Test Cases/Login/Login015" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:58:22 - [TEST_CASE][PASSED] - Test Cases/Login/Login015: Test Cases/Login/Login015
+
+2022-07-26 17:58:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:25 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:27 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text ' ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:28 - [MESSAGE][PASSED] - Text ' ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:58:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:58:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:58:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:58:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833111858.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login016" time="11.371" classname="Test Cases/Login/Login016" status="PASSED">
+         <system-out><![CDATA[2022-07-26 17:58:34 - [TEST_CASE][PASSED] - Test Cases/Login/Login016: Test Cases/Login/Login016
+
+2022-07-26 17:58:36 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 17:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 17:58:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:38 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 17:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword  ' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:40 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword  ' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 17:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 17:58:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 17:58:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 17:58:43 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 17:58:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 17:58:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\1658833123478.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-26 17:55:24 - [TEST_SUITE][PASSED] - login: Test Cases/Login/Login016]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input data username valid spasi diakhir dan password valid</description>
+   <name>Login012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02e4f0fe-e9b7-42f8-8e5f-e6ddca740ec1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f3fb71d6-94bf-4873-8c06-d613430148de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12d09b6d-aeed-4ea9-8fe3-4af7b3ade3d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f3b8ae23-679d-4439-bc71-af977dac41a6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3fb71d6-94bf-4873-8c06-d613430148de</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12d09b6d-aeed-4ea9-8fe3-4af7b3ade3d6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3b8ae23-679d-4439-bc71-af977dac41a6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

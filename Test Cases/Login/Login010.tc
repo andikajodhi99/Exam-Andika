@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input data username valid huruf kapital semua dan password valid</description>
+   <name>Login010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>465f2398-5690-43bc-87dd-eb24350e02d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30a796b7-d2e5-4ba5-8843-6f0cf5d37872</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfeab69c-3677-4bbc-9c22-17b8b3f2e0ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b6944b6-fca8-4a5d-84fd-f428b47b6508</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30a796b7-d2e5-4ba5-8843-6f0cf5d37872</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bfeab69c-3677-4bbc-9c22-17b8b3f2e0ce</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b6944b6-fca8-4a5d-84fd-f428b47b6508</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
