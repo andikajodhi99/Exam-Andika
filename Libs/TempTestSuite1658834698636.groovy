@@ -14,8 +14,8 @@ import internal.GlobalVariable as GlobalVariable
 
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
-suiteProperties.put('id', 'Test Suites/login')
-suiteProperties.put('name', 'login')
+suiteProperties.put('id', 'Test Suites/Logout')
+suiteProperties.put('name', 'Logout')
 suiteProperties.put('description', '')
 suiteProperties.put('rerunTestFailImmediately', 'true')
 suiteProperties.put('retryCount', '3')
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\execution.properties")
+RunConfiguration.setExecutionSettingFile("G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/login', suiteProperties, new File("G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_175506\\login\\20220726_175506\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Logout', suiteProperties, new File("G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458\\testCaseBinding"))

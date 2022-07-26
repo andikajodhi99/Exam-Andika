@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logout" time="30.151" tests="2" failures="0" errors="0">
+   <testsuite name="Logout" tests="2" failures="0" errors="0" time="30.151" skipped="0" timestamp="2022-07-26 18:25:15" hostname="Andika - DESKTOP-PNDNL8F.lan" id="Test Suites/Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458"/>
+         <property name="logFiles" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458\\execution0.log"/>
+         <property name="attachments" value="G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458\\1658834736072.png, G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458\\1658834742529.png"/>
+         <property name="hostName" value="Andika - DESKTOP-PNDNL8F.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.110.8"/>
+         <property name="sessionId" value="50d95229284bc4d09ecc7b8b26de9dfa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login006" time="21.378" classname="Test Cases/Login/Login006" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:25:16 - [TEST_CASE][PASSED] - Test Cases/Login/Login006: Test Cases/Login/Login006
+
+2022-07-26 18:25:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 18:25:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 18:25:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 18:25:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 18:25:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:25:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2022-07-26 18:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-07-26 18:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:25:31 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+2022-07-26 18:25:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:25:32 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+2022-07-26 18:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-07-26 18:25:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-26 18:25:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 18:25:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:25:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:25:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458\\1658834736072.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout" time="6.99" classname="Test Cases/logout" status="PASSED">
+         <system-out><![CDATA[2022-07-26 18:25:38 - [TEST_CASE][PASSED] - Test Cases/logout: Test Cases/logout
+
+2022-07-26 18:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2022-07-26 18:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2022-07-26 18:25:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2022-07-26 18:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2022-07-26 18:25:42 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2022-07-26 18:25:42 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2022-07-26 18:25:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-26 18:25:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-26 18:25:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\My Drive\\Kerja\\KuisQA-master\\Reports\\20220726_182458\\Logout\\20220726_182458\\1658834742529.png]]
+
+2022-07-26 18:25:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 18:25:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-26 18:25:15 - [TEST_SUITE][PASSED] - Logout: Test Cases/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
